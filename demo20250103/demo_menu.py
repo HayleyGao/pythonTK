@@ -15,6 +15,7 @@ filemenu.add_command(label='保存') # 添加一个普通菜单项
 
 
 root.config(menu=menubar)
-
+# 在Python的Tkinter库中，config()方法是用于配置或更新小部件（widget）属性的方法。
+# root.config(menu=menubar)这行代码的作用是将一个菜单栏（menubar）配置到主窗口（root）上。
 
 root.mainloop()
